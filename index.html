@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Dinethya Senojee Perera — Chemistry major, research enthusiast, and science communicator.">
+  <title>Dinethya Senojee Perera | Chemistry Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts: elegant academic typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Skip link for keyboard users -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ========== STICKY HEADER / NAVIGATION ========== -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="nav-logo" aria-label="Dinethya Senojee Perera — Home">
+        <span class="logo-icon" aria-hidden="true">⚛</span>
+        <span class="logo-text">D.S. Perera</span>
+      </a>
+
+      <!-- Mobile menu toggle -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero section" id="home" aria-labelledby="hero-heading">
+      <!-- Decorative science background shapes -->
+      <div class="hero-bg" aria-hidden="true">
+        <div class="molecule molecule-1"></div>
+        <div class="molecule molecule-2"></div>
+        <div class="molecule molecule-3"></div>
+        <div class="beaker beaker-1"></div>
+        <div class="beaker beaker-2"></div>
+        <div class="atom atom-1">⚛</div>
+        <div class="atom atom-2">⬡</div>
+      </div>
+
+      <div class="container hero-content">
+        <p class="hero-eyebrow fade-in visible">Chemistry Portfolio</p>
+        <h1 class="hero-title fade-in visible" id="hero-heading">Dinethya Senojee Perera</h1>
+        <p class="hero-subtitle fade-in visible">Chemistry Major | Research Enthusiast | Science Communicator</p>
+        <p class="hero-intro fade-in visible">
+          I am a chemistry student driven by curiosity about how molecules behave, react, and
+          shape the world around us. From multistep organic synthesis and spectroscopic
+          characterisation to environmental toxicology and pharmaceutical science, I thrive in
+          the laboratory and in translating complex science for real-world impact.
+        </p>
+        <div class="hero-actions fade-in visible">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">About Me</span>
+          <h2 class="section-title" id="about-heading">Passionate About Scientific Discovery</h2>
+        </header>
+
+        <div class="about-grid">
+          <!-- Avatar placeholder -->
+          <div class="about-image-wrapper">
+            <div class="about-image" role="img" aria-label="Professional portrait placeholder">
+              <span class="avatar-icon" aria-hidden="true">🧪</span>
+              <span class="avatar-label">Photo Placeholder</span>
+            </div>
+          </div>
+
+          <div class="about-text">
+            <p>
+              I am an undergraduate chemistry student at Deakin University with a deep interest
+              in research, experimentation, and the application of science to environmental and
+              health challenges. My academic work spans organic synthesis, analytical chemistry,
+              pharmacology, and environmental science — always with a focus on rigorous
+              methodology and clear scientific communication.
+            </p>
+            <p>
+              Whether I am running a Diels–Alder cycloaddition in the lab, evaluating toxic
+              chemical exposure in consumer products, or drafting a research poster on
+              neuropharmacology, I approach every project with precision, curiosity, and a
+              commitment to evidence-based discovery.
+            </p>
+
+            <h3 class="about-interests-title">Areas of Interest</h3>
+            <ul class="interest-list">
+              <li><span aria-hidden="true">◈</span> Organic Chemistry</li>
+              <li><span aria-hidden="true">◈</span> Analytical Chemistry</li>
+              <li><span aria-hidden="true">◈</span> Environmental Chemistry</li>
+              <li><span aria-hidden="true">◈</span> Laboratory Research</li>
+              <li><span aria-hidden="true">◈</span> Scientific Writing</li>
+              <li><span aria-hidden="true">◈</span> Data Analysis</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section class="projects section section-alt" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Portfolio</span>
+          <h2 class="section-title" id="projects-heading">Research &amp; Academic Projects</h2>
+          <p class="section-desc">Selected coursework, lab reports, and research from my chemistry studies.</p>
+        </header>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: Hexaphenylbenzene Synthesis -->
+          <article class="project-card">
+            <div class="project-icon" aria-hidden="true">⚗</div>
+            <h3 class="project-title">Hexaphenylbenzene Multistep Synthesis</h3>
+            <p class="project-desc">
+              Synthesised hexaphenylbenzene from benzaldehyde via a seven-step convergent route
+              involving Diels–Alder cycloaddition. Characterised all intermediates and the final
+              product by melting point, TLC, ¹H NMR, and FTIR spectroscopy.
+            </p>
+            <ul class="project-skills">
+              <li>Organic synthesis</li>
+              <li>Chromatography</li>
+              <li>Spectroscopy</li>
+              <li>Lab reporting</li>
+            </ul>
+            <a href="public/Prac report SLE318 (1).pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Read More</a>
+          </article>
+
+          <!-- Project 2: Betti Reaction -->
+          <article class="project-card">
+            <div class="project-icon" aria-hidden="true">⬡</div>
+            <h3 class="project-title">Betti Reaction — Named Reaction Review</h3>
+            <p class="project-desc">
+              Authored a ChemComm-style communication on the Betti reaction — a versatile
+              multicomponent condensation forming chiral amino-alkylphenols with applications
+              in pharmaceutical and agrochemical synthesis.
+            </p>
+            <ul class="project-skills">
+              <li>Organic chemistry</li>
+              <li>Literature review</li>
+              <li>Scientific writing</li>
+            </ul>
+            <a href="public/Named reaction final Dinethya.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Read More</a>
+          </article>
+
+          <!-- Project 3: E-cigarette Toxicology -->
+          <article class="project-card">
+            <div class="project-icon" aria-hidden="true">☣</div>
+            <h3 class="project-title">Toxic Chemical Exposure in E-Cigarettes</h3>
+            <p class="project-desc">
+              Evaluated media reporting on Australian vaping research, analysing chemical
+              composition of vape liquids including PAHs, heavy metals, and nicotine
+              labelling discrepancies in nicotine-free products.
+            </p>
+            <ul class="project-skills">
+              <li>Toxicology</li>
+              <li>Critical analysis</li>
+              <li>Environmental health</li>
+            </ul>
+            <a href="public/case study SLE312.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Read More</a>
+          </article>
+
+          <!-- Project 4: Pharmaceuticals in Rivers -->
+          <article class="project-card">
+            <div class="project-icon" aria-hidden="true">💧</div>
+            <h3 class="project-title">Pharmaceuticals in Rivers</h3>
+            <p class="project-desc">
+              Investigated antidepressant and antiepileptic drug residues in freshwater systems,
+              assessing wastewater treatment inefficiencies and ecological impacts on aquatic
+              species including neurobehavioral and reproductive toxicity.
+            </p>
+            <ul class="project-skills">
+              <li>Environmental chemistry</li>
+              <li>Data analysis</li>
+              <li>Scientific writing</li>
+            </ul>
+            <a href="public/case study 2 - SLE312.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Read More</a>
+          </article>
+
+          <!-- Project 5: Waste Management -->
+          <article class="project-card">
+            <div class="project-icon" aria-hidden="true">♻</div>
+            <h3 class="project-title">Resource Efficiency &amp; Waste Management</h3>
+            <p class="project-desc">
+              Conducted on-site waste audits across hospitality venues, benchmarking food
+              industry waste streams and developing evidence-based recommendations for
+              reduction and diversion strategies.
+            </p>
+            <ul class="project-skills">
+              <li>Field audit</li>
+              <li>Sustainability analysis</li>
+              <li>Report writing</li>
+            </ul>
+            <a href="public/Case study SLE320 (1).pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Read More</a>
+          </article>
+
+          <!-- Project 6: Serotonin & Depression Poster -->
+          <article class="project-card">
+            <div class="project-icon" aria-hidden="true">🧠</div>
+            <h3 class="project-title">Cracking the Serotonin Code</h3>
+            <p class="project-desc">
+              Research poster exploring the neurobiology of depression, serotonin pathways,
+              and pharmacological treatments including SSRIs, SNRIs, MAOIs, and atypical
+              antidepressants with cell and animal model insights.
+            </p>
+            <ul class="project-skills">
+              <li>Pharmacology</li>
+              <li>Neuroscience</li>
+              <li>Poster design</li>
+            </ul>
+            <a href="public/HMM304 poster - final .pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Read More</a>
+          </article>
+
+          <!-- Project 7: Orexivive Drug Design -->
+          <article class="project-card">
+            <div class="project-icon" aria-hidden="true">💊</div>
+            <h3 class="project-title">Orexivive — Orexin-1 Drug Design</h3>
+            <p class="project-desc">
+              Proposed a novel pharmaceutical concept targeting orexin-1 receptors to address
+              treatment gaps in atypical depression, including hypersomnia, weight gain, and
+              interpersonal rejection sensitivity.
+            </p>
+            <ul class="project-skills">
+              <li>Drug design</li>
+              <li>Pharmacology</li>
+              <li>Market analysis</li>
+            </ul>
+            <a href="public/HMM304 AT2.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Read More</a>
+          </article>
+
+          <!-- Project 8: Fluoxetine Pharmacodynamics -->
+          <article class="project-card">
+            <div class="project-icon" aria-hidden="true">🔬</div>
+            <h3 class="project-title">Fluoxetine Pharmacodynamics</h3>
+            <p class="project-desc">
+              Oral presentation examining the pharmacodynamic features of fluoxetine (Prozac),
+              an SSRI antidepressant, including its mechanism of action, receptor interactions,
+              and clinical applications for MDD.
+            </p>
+            <ul class="project-skills">
+              <li>Pharmacodynamics</li>
+              <li>Presentation</li>
+              <li>SSRI mechanism</li>
+            </ul>
+            <a href="public/HMM301 pdf.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Read More</a>
+          </article>
+
+          <!-- Project 9: Science Communication -->
+          <article class="project-card">
+            <div class="project-icon" aria-hidden="true">✎</div>
+            <h3 class="project-title">Science Communication Portfolio</h3>
+            <p class="project-desc">
+              Developed evidence-based written science communication for a target audience,
+              including peer feedback integration, promotion planning, and reflective practice
+              on ethical use of generative AI in science writing.
+            </p>
+            <ul class="project-skills">
+              <li>Science communication</li>
+              <li>Written communication</li>
+              <li>Peer review</li>
+            </ul>
+            <a href="public/SLE200 A3 Written Communication Template 2025 Completed (1).pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Read More</a>
+          </article>
+
+          <!-- Project 10: Photoredox Catalysis Poster -->
+          <article class="project-card">
+            <div class="project-icon" aria-hidden="true">☀</div>
+            <h3 class="project-title">Photoredox Catalysis in Drug Synthesis</h3>
+            <p class="project-desc">
+              Literature review poster on late-stage N-methyl selective alkenylation and
+              alkynylation of drugs and unactivated tertiary amines using photoredox catalysis —
+              a frontier method in medicinal chemistry.
+            </p>
+            <ul class="project-skills">
+              <li>Photoredox catalysis</li>
+              <li>Medicinal chemistry</li>
+              <li>Literature review</li>
+            </ul>
+            <a href="public/Untitled (420 x 297 mm) (2) (1) (1).pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Read More</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section class="skills section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Expertise</span>
+          <h2 class="section-title" id="skills-heading">Skills &amp; Techniques</h2>
+        </header>
+
+        <div class="skills-grid">
+          <div class="skill-badge"><span aria-hidden="true">🧫</span> Laboratory Techniques</div>
+          <div class="skill-badge"><span aria-hidden="true">💧</span> Titration</div>
+          <div class="skill-badge"><span aria-hidden="true">📊</span> Spectroscopy</div>
+          <div class="skill-badge"><span aria-hidden="true">🔍</span> Chromatography</div>
+          <div class="skill-badge"><span aria-hidden="true">🔬</span> Scientific Research</div>
+          <div class="skill-badge"><span aria-hidden="true">📈</span> Data Analysis</div>
+          <div class="skill-badge"><span aria-hidden="true">📝</span> Lab Report Writing</div>
+          <div class="skill-badge"><span aria-hidden="true">🛡</span> Safety Procedures</div>
+          <div class="skill-badge"><span aria-hidden="true">📋</span> Microsoft Excel</div>
+          <div class="skill-badge"><span aria-hidden="true">🎤</span> Scientific Presentation</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE / TIMELINE SECTION ========== -->
+    <section class="experience section section-alt" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Journey</span>
+          <h2 class="section-title" id="experience-heading">Research &amp; Experience</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024 – Present</span>
+              <h3 class="timeline-title">Chemistry Laboratory Coursework</h3>
+              <p class="timeline-org">Deakin University — School of Life &amp; Environmental Sciences</p>
+              <p>
+                Completed advanced laboratory units including multistep organic synthesis (SLE318),
+                spectroscopic characterisation, and practical reporting to publication-standard
+                formats.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025 – 2026</span>
+              <h3 class="timeline-title">Undergraduate Research Projects</h3>
+              <p class="timeline-org">Independent &amp; Course-Based Research</p>
+              <p>
+                Authored research communications on named organic reactions, environmental
+                toxicology case studies, and pharmaceutical residues in aquatic ecosystems.
+                Designed a novel orexin-1 receptor drug concept for atypical depression.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025 – 2026</span>
+              <h3 class="timeline-title">Academic Presentations &amp; Posters</h3>
+              <p class="timeline-org">HMM301 / HMM304 — Pharmacology &amp; Medicinal Chemistry</p>
+              <p>
+                Delivered oral presentations on fluoxetine pharmacodynamics and bupropion
+                pharmacokinetics. Created research posters on serotonin neurobiology and
+                photoredox catalysis in drug synthesis.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025 – 2026</span>
+              <h3 class="timeline-title">Science Communication &amp; STEM Outreach</h3>
+              <p class="timeline-org">SLE200 — Communicating Science Ideas</p>
+              <p>
+                Developed evidence-based science writing for public audiences, integrated peer
+                feedback, and reflected on ethical AI use in scientific communication. Passionate
+                about making chemistry accessible and engaging.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-name">
+        <span class="footer-icon" aria-hidden="true">⚛</span>
+        Dinethya Senojee Perera
+      </p>
+      <p class="footer-copy">&copy; <span id="footer-year">2026</span> All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
