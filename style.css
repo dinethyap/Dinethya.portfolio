@@ -535,12 +535,72 @@ ul, ol {
   gap: var(--space-sm);
 }
 
+/* Social links */
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  list-style: none;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-navy);
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-sm);
+  transition: background var(--transition), border-color var(--transition), transform var(--transition);
+}
+
+.social-link:hover,
+.social-link:focus-visible {
+  background: var(--color-white);
+  border-color: var(--color-green-dark);
+  color: var(--color-navy);
+  transform: translateY(-2px);
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-green-dark);
+}
+
+.hero-social {
+  margin-top: var(--space-md);
+}
+
+.footer-social {
+  justify-content: center;
+  gap: var(--space-md);
+}
+
+.footer-social a {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.footer-social a:hover,
+.footer-social a:focus-visible {
+  color: var(--color-green);
+}
+
 /* Staggered fade-in delays for hero elements */
 .hero-content .fade-in:nth-child(1) { transition-delay: 0.1s; }
 .hero-content .fade-in:nth-child(2) { transition-delay: 0.2s; }
 .hero-content .fade-in:nth-child(3) { transition-delay: 0.3s; }
 .hero-content .fade-in:nth-child(4) { transition-delay: 0.4s; }
 .hero-content .fade-in:nth-child(5) { transition-delay: 0.5s; }
+.hero-content .fade-in:nth-child(6) { transition-delay: 0.6s; }
 
 /* ---------- About Section ---------- */
 .about-grid {
@@ -806,6 +866,13 @@ ul, ol {
 .resume-card p {
   color: var(--color-gray-600);
   margin-bottom: var(--space-md);
+}
+
+.resume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-sm);
 }
 
 .resume-note {

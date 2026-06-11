@@ -21,7 +21,7 @@
     <nav class="nav container" aria-label="Main navigation">
       <a href="#home" class="nav-logo" aria-label="Dinethya Senojee Perera — Home">
         <span class="logo-icon" aria-hidden="true">⚛</span>
-        <span class="logo-text">D.S. Perera</span>
+        <span class="logo-text">Dinethya Perera</span>
       </a>
 
       <!-- Mobile menu toggle -->
@@ -71,6 +71,26 @@
         <div class="hero-actions fade-in visible">
           <a href="#projects" class="btn btn-primary">View Projects</a>
         </div>
+        <ul class="social-links hero-social fade-in visible" aria-label="Social links">
+          <li>
+            <a href="https://www.linkedin.com/in/dinethya-perera-2527262ab/" class="social-link" target="_blank" rel="noopener noreferrer">
+              <span class="social-icon" aria-hidden="true">in</span>
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="mailto:s224771638@deakin.edu.au" class="social-link">
+              <span class="social-icon" aria-hidden="true">✉</span>
+              University Email
+            </a>
+          </li>
+          <li>
+            <a href="tel:+61402792128" class="social-link">
+              <span class="social-icon" aria-hidden="true">☎</span>
+              Contact Number
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
 
@@ -397,6 +417,81 @@
       </div>
     </section>
 
+    <!-- ========== RESUME SECTION ========== -->
+    <section class="resume section" id="resume" aria-labelledby="resume-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Curriculum Vitae</span>
+          <h2 class="section-title" id="resume-heading">Resume</h2>
+          <p class="section-desc">Download or view my CV for a full overview of my academic background and experience.</p>
+        </header>
+
+        <div class="resume-card">
+          <div class="resume-icon" aria-hidden="true">📄</div>
+          <p>
+            My resume summarises my chemistry coursework, research projects, laboratory skills,
+            and academic achievements at Deakin University.
+          </p>
+          <div class="resume-actions">
+            <a href="public/CV_Dinethya_Senojee_Perera.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Resume</a>
+            <a href="public/CV_Dinethya_Senojee_Perera.pdf" class="btn btn-secondary" download="CV_Dinethya_Senojee_Perera.pdf">Download PDF</a>
+          </div>
+          <p class="resume-note">PDF format</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Get in Touch</span>
+          <h2 class="section-title" id="contact-heading">Contact</h2>
+          <p class="section-desc">Reach out for research collaborations, academic inquiries, or opportunities.</p>
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3 class="contact-info-title">Connect With Me</h3>
+            <ul class="contact-list social-links" aria-label="Social links">
+              <li>
+                <span class="contact-icon" aria-hidden="true">in</span>
+                <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              </li>
+              <li>
+                <span class="contact-icon" aria-hidden="true">✉</span>
+                <a href="mailto:your.email@students.deakin.edu.au">University Email</a>
+              </li>
+              <li>
+                <span class="contact-icon" aria-hidden="true">☎</span>
+                <a href="tel:+61000000000">Contact Number</a>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Name <span class="required" aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+              <span class="form-error" id="name-error" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email <span class="required" aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+              <span class="form-error" id="email-error" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message <span class="required" aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <span class="form-error" id="message-error" role="alert"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <p class="form-success" id="form-success" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- ========== FOOTER ========== -->
@@ -406,6 +501,11 @@
         <span class="footer-icon" aria-hidden="true">⚛</span>
         Dinethya Senojee Perera
       </p>
+      <ul class="social-links footer-social" aria-label="Social links">
+        <li><a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="mailto:your.email@students.deakin.edu.au">University Email</a></li>
+        <li><a href="tel:+61000000000">Contact Number</a></li>
+      </ul>
       <p class="footer-copy">&copy; <span id="footer-year">2026</span> All rights reserved.</p>
     </div>
   </footer>
